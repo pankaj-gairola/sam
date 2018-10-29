@@ -1,4 +1,5 @@
 
+Install-Module -Name Azure,AzureRM -force
 
 $s_name = "blobaccount1"
 
