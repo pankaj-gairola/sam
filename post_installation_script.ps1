@@ -31,7 +31,7 @@ write-host ' copied solarwindinstaller  from azure blob....'; [datetime]::Now
 
 cd "C:\Windows\Temp"
 
-write-host ' starting solarwindinstaller....'; [datetime]::Now
+write-host ' starting installation solarwindinstaller....'; [datetime]::Now
 .\Solarwinds-Orion-SAM-6.6.1-OfflineInstaller.exe /s /ConfigFile="C:\Windows\Temp\installer.xml"
 write-host ' installation completed solarwindinstaller....'; [datetime]::Now
 
